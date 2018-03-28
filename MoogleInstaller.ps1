@@ -65,7 +65,7 @@ foreach($File in $Files) {
 
         Catch {
         
-           Write-Error "Unable to download $MoogleStuff\$File from $GitHubLink/$File"
+           Write-Error "Unable to download $GitHubLink/$File"
         }
     }
 }
